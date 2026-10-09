@@ -19,11 +19,14 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
 
 # Virtual Environment
 venv/
 env/
 ENV/
+env.bak/
+venv.bak/
 
 # IDE
 .vscode/
@@ -31,6 +34,11 @@ ENV/
 *.swp
 *.swo
 *~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
 
 # Data and Models
 data/
@@ -39,10 +47,18 @@ results/
 *.h5
 *.pkl
 *.npz
+*.hdf5
+*.pb
 
 # OS
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+desktop.ini
 
 # Jupyter
 .ipynb_checkpoints/
@@ -50,3 +66,26 @@ Thumbs.db
 
 # Logs
 *.log
+logs/
+*.out
+*.err
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Documentation
+docs/_build/
+docs/.doctrees/
+
+# Distribution
+*.whl
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
