@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  deforestation-detection:
+    build: .
+    container_name: deforestation-detection
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./results:/app/results
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: python main.py train --epochs 30
+
+  jupyter:
+    build: .
+    container_name: deforestation-jupyter
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/app
+    command: jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root

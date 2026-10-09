@@ -1,0 +1,23 @@
+# Code Owners
+
+# Default code owner
+* @sujayd033
+
+# Documentation
+*.md @sujayd033
+docs/** @sujayd033
+
+# Core modules
+config.py @sujayd033
+model.py @sujayd033
+data_preprocessing.py @sujayd033
+train.py @sujayd033
+inference.py @sujayd033
+visualization.py @sujayd033
+main.py @sujayd033
+
+# CI/CD
+.github/** @sujayd033
+
+# Issues and PRs requiring review
+*.py @sujayd033
