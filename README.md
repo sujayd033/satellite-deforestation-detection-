@@ -9,6 +9,7 @@
     <img src="https://img.shields.io/badge/Deep%20Learning-CNN-green.svg" alt="Deep Learning">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
     <img src="https://img.shields.io/badge/Status-Active-success.svg" alt="Status">
+    <img src="https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-blue.svg" alt="CI/CD">
   </p>
 
   <p align="center">
